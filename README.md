@@ -1,6 +1,5 @@
 # ComfyUI Translator Nodes
-
-A collection of custom translation nodes for ComfyUI, providing both traditional machine translation and LLM-powered translation solutions.
+ComfyUI plug-in collection of basic translator, LLM translator and a series of LLM Service Connectors.
 
 ## Node List
 
@@ -184,3 +183,6 @@ Benefits of Dedicated Connectors:
 ## License
 
 This project is licensed under the MIT License.
+
+
+
