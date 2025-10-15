@@ -1,0 +1,38 @@
+{
+  "name": "ComfyUI-Translator",
+  "author": "Owl-V",
+  "version": "1.0.0",
+  "description": "ComfyUI plug-in collection of basic translator, LLM translator and a series of LLM Service Connectors.",
+  "category": "translation",
+  "nodes": [
+    "basic_translator_node.py",
+    "chatgpt_connector_node.py", 
+    "deepseek_connector_node.py",
+    "gemini_connector_node.py",
+    "general_llm_service_connector_node.py",
+    "kimi_connector_node.py",
+    "llm_model_loader_node.py",
+    "llm_service_connector_node.py",
+    "llm_translator_node.py",
+    "ollama_llm_connector_node.py",
+    "siliconflow_connector_node.py",
+    "zhipu_connector_node.py"
+  ],
+  "requirements": [
+    "googletrans==4.0.0rc1",
+    "requests>=2.25.0"
+  ],
+  "tags": [
+    "translation",
+    "llm",
+    "ai",
+    "chatgpt",
+    "deepseek", 
+    "gemini",
+    "kimi",
+    "ollama",
+    "zhipu",
+    "connector",
+    "utility"
+  ]
+}
